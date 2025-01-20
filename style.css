@@ -1,0 +1,175 @@
+:root{
+    --dark-brown-color : #794939;
+    --brown-color : #b49c8e;
+    --pink-color : #b86f6b;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main .row .line{
+    width: 95%;
+    margin: auto;
+    height: 2px;
+    background-color: var(--pink-color);
+}
+.container-fluid{
+    width: 95%;
+    margin-top: 1rem;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+/* Start Left Side */
+main .row .leftSide .myPic{
+    height: 400px;
+}
+main .row .leftSide .info i{
+    color: var(--dark-brown-color);
+}
+main .row .leftSide .header i{
+    color: var(--dark-brown-color);
+}
+main .row .leftSide .outer .inner{
+    background-color: var(--brown-color);
+}
+main .row .leftSide .skills .skill .outer #html{
+    width: 95%;
+}
+main .row .leftSide .skills .skill .outer #css{
+    width: 90%;
+}
+main .row .leftSide .skills .skill .outer #bootstrap{
+    width: 85%;
+}
+main .row .leftSide .skills .skill .outer #responsive{
+    width: 80%;
+}
+main .row .leftSide .skills .skill .outer #javascript,
+main .row .leftSide .languages .language .outer #english{
+    width: 75%;
+}
+main .row .leftSide .skills .skill .outer #react{
+    width: 60%;
+}
+main .row .leftSide .languages .language .outer .inner{
+    height: 1.5rem;
+}
+main .row .leftSide .languages .language .outer #arabic{
+    width: 100%;
+}
+main .row .leftSide .languages .language .outer #germany{
+    width: 40%;
+}
+/* Start Right Side */
+main .row .rightSide .header i{
+    color: var(--dark-brown-color);
+}
+main .row .rightSide .experience .date i{
+    color: var(--dark-brown-color);
+}
+main .row .rightSide .date .current{
+    background-color: var(--dark-brown-color);
+    padding: 0.4rem 0.6rem;
+}
+main .row .rightSide .education .education-content i{
+    color: var(--dark-brown-color);
+}
+main .row .rightSide .resume .resume-content a{
+    background-color: var(--dark-brown-color) !important;
+}
+main .row .rightSide .resume .resume-content a:hover{
+    background-color: #fff !important;
+    color: var(--dark-brown-color) !important;
+    border: 2px solid var(--dark-brown-color);
+}
+/* End Main */
+
+/* Start Footer */
+footer{
+    background-color: var(--dark-brown-color);
+}
+footer ul li a i:hover{
+    color: var(--brown-color);
+}
+/* End Footer */
+
+/* Media Query */
+@media screen and (max-width: 500px) {
+    main .row .rightSide .resume a{
+        width: 75% !important;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 767px) {
+    main .row .rightSide .resume a{
+        width: 60% !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 850px){
+    main .row .leftSide .myPic h2{
+        font-size: 1.5rem !important;
+        bottom: 28% !important;
+    }
+    main .row .leftSide .info{
+        margin-top: -5rem !important;
+    }
+    main .row .leftSide .info p{
+        word-break: break-word !important;
+    }
+    main .row .rightSide .resume a{
+        width: 50% !important;
+    }
+}
+
+
+@media screen and (min-width: 851px) and (max-width: 900px){
+    main .row .leftSide .myPic h2{
+        font-size: 1.5rem !important;
+        bottom: 20% !important;
+    }
+    main .row .leftSide .info{
+        margin-top: -4rem !important;
+    }
+    main .row .leftSide .info p{
+        word-break: break-word !important;
+    }
+    main .row .rightSide .resume a{
+        width: 50% !important;
+    }
+}
+
+
+@media screen and (min-width: 901px) and (max-width: 991px){
+    main .row .leftSide .myPic h2{
+        font-size: 1.5rem !important;
+        bottom: 15% !important;
+    }
+    main .row .leftSide .info{
+        margin-top: -1rem !important;
+    }
+    main .row .leftSide .info p{
+        word-break: break-word !important;
+    }
+    main .row .rightSide .resume a{
+        width: 50% !important;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1380px){
+    main .row .leftSide .info p{
+        word-break: break-word !important;
+    }
+    main .row .rightSide .resume a{
+        width: 40% !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    main .row .rightSide .resume a{
+        width: 100% !important;
+    }
+}
